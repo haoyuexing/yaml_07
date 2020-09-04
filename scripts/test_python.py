@@ -9,8 +9,6 @@ class TestPython:
     @pytest.mark.parametrize("args", analyze_data("python_data", "test_py1"))
     def test_py1(self, args):
         a = args["a"]
-        b = args["b"]
-        c = args["c"]
 
 
 
@@ -21,3 +19,4 @@ class TestPython:
     @pytest.mark.parametrize("args", analyze_data("python_data", "test_py2"))
     def test_py2(self, args):
         print(args)
+        print("hello")
