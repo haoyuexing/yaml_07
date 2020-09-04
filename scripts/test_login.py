@@ -23,3 +23,4 @@ class TestLogin:
     # @pytest.mark.parametrize("args", [{"name": "xiaoming", "phone": "188"}])
     # def test_login(self, args):
     #     print(args)
+这是login
