@@ -1,0 +1,15 @@
+test_hello1:
+  test_hello1_001:
+    i: "zhangsan"
+  test_hello1_002:
+    i: "lisi"
+  test_hello1_003:
+    i: "wangwu"
+
+test_hello2:
+  test_hello2_001:
+    username: "zs"
+    password: "zs13"
+  test_hello2_002:
+    username: "ls"
+    password: "ls123"
